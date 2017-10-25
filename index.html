@@ -2,9 +2,60 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>ALEX AND AMYS AWESOME WORKOUT APP</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vampy Body</title>
   </head>
   <body>
+    <header>
+      <div class="header-div">
+        <h1>Vampy<strong>Body</strong></h1>
+      </div>
+    </header>
 
+    <nav>
+      <ul class="nav-list">
+        <li class="home">Home</li>
+        <li>Goals</li>
+        <li>Calendar</li>
+      </ul>
+    </nav>
+
+    <div>
+    <main>
+      <article class="progress-chart">
+        <div class="chart-container">
+          <img src="graph.svg" alt="Chart showing Vamp progress" class="chart">
+        </div>
+        <h3 class="progress-chart-title">Progress Chart</h3>
+      </article>
+
+      <article class="todays-workout">
+        <h3>Today's Workout</h3>
+        <table>
+          <tr>
+            <td>deadlifts</td>
+            <td class="align-right">5x10</td>
+          </tr>
+          <tr>
+            <td>squats</td>
+            <td class="align-right">5x10</td>
+          </tr>
+          <tr>
+            <td>bench press</td>
+            <td class="align-right">5x10</td>
+          </tr>
+          <tr>
+            <td><input type="text" placeholder="move" /></td>
+            <td class="align-right"><input type="text" placeholder="reps" /></td>
+          </tr>
+          <tr>
+            <td colspan="2"><button>Add</button></td>
+          </tr>
+        </table>
+      </article>
+    </main>
+  </div>
   </body>
 </html>
